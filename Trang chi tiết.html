@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Menu with speed gauge effect</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Image/logo CMYK-03.png" alt="Glints Logo">
+        </div>
+        <div class="tagline">
+            ĐẠI HỌC HUTECH
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search ...">
+            <button type="submit"><img src="Image/20.png" alt="Search"></button>
+        </div>
+    </header>
+
+
+<body>
+<!-- partial:index.partial.html -->
+<div class="header">
+  <div class="header__logo">
+  </div>
+  <nav class="navbar">
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="#" class="navbar__link"><i data-feather="home"></i><span>Home</span> </a>
+      </li>
+      <li class="navbar__item">
+        <a href="Image/hocphi.jpg" class="navbar__link"><i data-feather="message-square"></i><span>Học Phí</span></a>        
+      </li>
+      <li class="navbar__item">
+        <a href="https://www.vanlangsaigon.edu.vn/vi/phong-trao-sinh-vien" class="navbar__link"><i data-feather="users"></i><span>Sinh Viên<nav></nav></span></a>        
+      </li>
+      <li class="navbar__item">
+        <a href="https://www.vanlangsaigon.edu.vn/vi/bao-chi" class="navbar__link"><i data-feather="folder"></i><span>Góc Báo Chí</span></a>        
+      </li>
+      <li class="navbar__item">
+        <a href="https://www.vanlangsaigon.edu.vn/vi/bieu-mau-71" class="navbar__link"><i data-feather="archive"></i><span>Hành Chính</span></a>        
+      </li>
+      <li class="navbar__item">
+        <a href="https://www.vanlangsaigon.edu.vn/vi/su-kien" class="navbar__link"><i data-feather="help-circle"></i><span>Tin Tức</span></a>        
+      </li>   
+      </li>
+    </ul>
+  </nav>
+</div>
+<script>
+  feather.replace();
+</script>
+<script src='https://unpkg.com/feather-icons'></script>
+<script src="./script.js"></script>
+</body>
+    
+
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngành Chăm Sóc Sắc Đẹp</title>
+    <link rel="stylesheet" href="styles.css">
+</head> 
+
+<body>
+    <div class="content">
+        <h1>ĐẠI HỌC HUTECH</h1>
+    </div>
+
+
+    <body>
+    <div class="slideshow-container">
+    
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="Image/14.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Image/24.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Image/23.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+    
+    <script>
+        let slideIndex = 0;
+        showSlides();
+    
+        function showSlides() {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+            const dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    
+            <div class="noidung">     
+            </head>
+            <body>
+                <div class="content">
+                    <p>
+                        <strong>Ngành chăm sóc sắc đẹp là gì?</strong>Tại Việt Nam, chăm sóc sắc đẹp là một trong những nhu cầu có tốc độ tăng trưởng mạnh mẽ và đứng đầu trong khu vực. Theo thống kê, trong 3 – 4 năm trở lại đây, nước ta có khoảng 2000 viện thẩm mỹ, spa, v.v với đa dạng quy mô được mở. Điều này mở ra nhiều cơ hội việc làm hấp dẫn cho các bạn trẻ yêu thích lĩnh vực này. 
+                    </p>
+                    <p>
+                        Trong bài viết dưới đây, Glints sẽ chia sẻ đến bạn các thông tin thú vị về ngành chăm sóc sắc đẹp, cũng như những góc nhìn mới mẻ về ngành nghề tiềm năng này.
+                    </p>
+                </div>
+        
+        <body>
+            <div class="toc">
+                <h2>Mục Lục</h2>
+                <ul>
+                    <li><a href="#what-is-beauty-care">Ngành Chăm Sóc Sắc Đẹp Là Gì?</a></li>
+                    <li><a href="#fields-in-beauty-care">Ngành Chăm Sóc Sắc Đẹp Bao Gồm Những Lĩnh Vực Nào?</a></li>
+                    <li><a href="#study-beauty-care">Học Ngành Chăm Sóc Sắc Đẹp Ở Đâu?</a></li>
+                    <li>
+                        <a href="#requirements">Yêu Cầu Cần Có Của Người Học Ngành Chăm Sóc Sắc Đẹp?</a>
+                        
+                    </li>
+                    <li><a href="#salary">Mức Lương Ngành Chăm Sóc Sắc Đẹp Cao Không?</a></li>
+                    <li><a href="#job-opportunities">Cơ Hội Việc Làm Ngành Chăm Sóc Sắc Đẹp?</a></li>
+                    <li><a href="#conclusion">Tạm Kết</a></li>
+                </ul>
+            </div>
+
+          
+            <div class="introduce-1" id="what-is-beauty-care">
+                <h1>Ngành chăm sóc sắc đẹp là gì?</h1>
+                <p>Ngành chăm sóc sắc đẹp là gì? Chăm sóc sắc đẹp (beauty care industry) là một ngành dịch vụ bao gồm nhiều hoạt động khác nhau nhằm giúp khách hàng tìm được vẻ đẹp tuyệt vời nhất của mình như: răng, tóc, da, v.v..</p>
+                <p>Bạn biết đấy, khi xã hội ngày càng phát triển các nhu cầu liên quan đến làm đẹp và chăm sóc sắc đẹp càng được quan tâm hơn. Do đó, đây là một trong những ngành rất phát triển và thu hút được nhiều nhân sự quan tâm.</p>
+                <img src="image/20.jpg" alt="Description of the image">
+            </div>
+        </div>
+
+
+        <div class="introduce-2" id="fields-in-beauty-care">
+            <h1>Ngành chăm sóc sắc đẹp bao gồm những lĩnh vực nào?</h1>
+            <p>Ngành chăm sóc sắc đẹp được chia ra thành nhiều lĩnh vực chuyên sâu, trong đó bao gồm:</p>
+            <ul>
+                <li>Lĩnh vực trang điểm, chăm sóc và tạo kiểu tóc, nghệ thuật nail, massage.</li>
+                <li>Lĩnh vực phun xăm thẩm mỹ</li>
+                <li>Lĩnh vực chăm sóc da</li>
+            </ul>
+        </div>
+   
+
+        <div class="introduce-3" id="study-beauty-care">
+            <h1>Học ngành chăm sóc sắc đẹp ở đâu?</h1>
+            <p>Học ngành chăm sóc sắc đẹp ở đâu? Ngành chăm sóc sắc đẹp học trường nào? Ngành chăm sóc sắc đẹp thi khối nào? Đây là câu hỏi được nhiều bạn trẻ yêu thích công việc này quan tâm. Trong phần này, Glints sẽ gợi ý đến bạn một vài địa điểm học tập mà bạn có thể tham khảo.</p>
+            <p>Trên thị trường hiện nay có 3 hình thức đào tạo về ngành chăm sóc sắc đẹp có thể kể đến như:</p>
+            <ul>
+                <li>Đào tạo chính quy tại các trường đại học, cao đẳng: Mặc dù vậy, hiện nay chưa có nhiều đơn vị đưa chuyên ngành chăm sóc sắc đẹp vào giảng dạy. Khi theo học tại đây, sinh viên sẽ bắt buộc phải học đủ các môn học từ cơ bản đến các môn liên quan.</li>
+                <li>Đào tạo nghề tại các trung tâm đào tạo nghề, hoặc thuộc doanh nghiệp: Tại đây, học viên sẽ được đào tạo chuyên về lĩnh vực mà họ mong muốn theo đuổi.</li>
+                <li>Học trực tiếp tại các cơ sở chăm sóc sắc đẹp: Đối với hình thức này, người học sẽ được chỉ dạy và thực hành trực tiếp tại cơ sở. Người đào tạo là những người làm việc lâu năm và có nhiều kiến thức, kỹ năng trong lĩnh vực.</li>
+            </ul>
+            <p>Dựa vào những gợi ý ở trên, hy vọng bạn sẽ lựa chọn hình thức học tập phù hợp nhất với định hướng của bản thân.</p>
+            <img src="image/23.jpg" alt="Description of the image">
+        </div>
+
+
+        <body>
+            <div class="introduce-4" id="requirements">
+                <h1>Yêu cầu cần có của người học ngành chăm sóc sắc đẹp?</h1>
+                <p>Nhân sự làm trong ngành chăm sóc sắc đẹp cần có những tố chất, kiến thức và kỹ năng gì? Cùng tìm hiểu ngay trong phần dưới đây nhé.
+
+                    Theo đó, người mong muốn theo đuổi lĩnh vực làm đẹp cần đáp ứng như yêu cầu sau:.</p>
+                <p>Trên thị trường hiện nay có 3 hình thức đào tạo về ngành chăm sóc sắc đẹp có thể kể đến như:</p>
+                <h1>Yêu nghề</h1>
+                <p>Đây có thể coi là một yêu cầu chung đối với bất kỳ nghề nghiệp nào, khi bạn yêu nghề thì bạn mới có thể gắn bó và phát triển cùng với nó được. </p>
+                <h1>Cẩn thận, và tỉ mỉ</h1>
+                <>Có thể nói đây là một trong những yêu cầu bắt buộc khi theo ngành này, dù bạn có lựa chọn lĩnh vực cụ thể nào đi chăng nữa. Bạn biết đấy, mọi thao tác của bạn đều tác động đến sắc đẹp của khách hàng, do đó, yêu cầu về tính cẩn thận và tỉ mỉ là rất cao.
+                <h1>Nhạy bén</h1>
+                <p>Khi nhạy bén với các xu hướng làm đẹp và thường xuyên cập nhật các kiến thức liên quan, bạn có thể luôn chạy song song với thời đại và không bị lỗi thời, luôn thu hút được khách hàng.</p>
+                <h1>Kỹ năng tay nghề khéo léo</h1>
+                <p>Tùy vào lĩnh vực cụ thể mà bạn lựa chọn sẽ có yêu cầu về kỹ năng riêng. Nhìn chung, khi theo đuổi nghề nghiệp này bạn cần có một bàn tay khéo léo.</p>
+                <h1>Hiểu về ngành dịch vụ khách hàng</h1>
+                <p>Chăm sóc sắc đẹp là một ngành dịch vụ, do đó, bạn cần có những hiểu biết và kỹ năng của ngành này. Chẳng hạn, trong quá trình làm việc bạn gặp một vị khách khó tính, bạn cần biết cách để làm hài lòng họ tốt nhất. Hoặc bạn cần biết cách làm sao để đem lại trải nghiệm dịch vụ khách hàng tốt nhất tại cơ sở chăm sóc sắc đẹp của mình.  </p>
+                <img src="image/28.jpg" alt="Description of the image">
+
+            
+            
+                <body>
+                    <div class="introduce-5" id="salary">
+                        <h1>Mức lương ngành chăm sóc sắc đẹp cao không?</h1>
+                        <p>Mức lương của ngành chăm sóc sắc đẹp như thế nào? Có thể nói, mức lương của ngành dịch vụ này khá đa dạng và phụ thuộc vào nhiều yếu tố khác nhau như: lĩnh vực chuyên môn cụ thể, trình độ tay nghề, địa điểm làm việc, cơ sở lao động, vị trí làm việc, v.v.</p>
+                        <p>Bạn có thể tham khảo mức lương của vị trí mà bạn theo đuổi tại Glints bằng cách tìm kiếm công việc cụ thể và xem mức lương mà các doanh nghiệp đang trả cho vị trí này. </p>
+                    <div class="introduce-5" id="job-opportunities">
+                        <h1>Cơ hội việc làm ngành chăm sóc sắc đẹp?</h1>
+                        <p>Có thể nói, mức sống của chúng ta ngày càng được cải thiện, do đó nhu cầu làm đẹp càng được đẩy mạnh. Bên cạnh đó, không chỉ phụ nữ mà ngày nay cánh mày râu cũng quan tâm nhiều hơn đến việc chăm sóc sắc đẹp cho bản thân. Do đó, hiện nay, các dịch vụ thẩm mỹ như chăm sóc tóc, spa, v.v được mở ngày càng nhiều. </p>
+                        <p>Khi nhu cầu dịch vụ tăng lên, điều này cũng đồng nghĩa với lực lượng nhân sự cũng cần tăng lên thì mới có thể đáp ứng được nhu cầu này. Do đó, chăm sóc sắc đẹp được đánh giá là một trong ngành có cơ hội nghề nghiệp rộng mở cho người theo đuổi ngành nghề này.</p>
+                        <p>Đánh giá về tiềm năng của ngành, Phó Chủ tịch Hội Giáo dục nghề nghiệp TP. Hồ Chí Minh ông  ông Trần Anh Tuấn cho biết, nhu cầu nguồn nhân lực ngành chăm sóc sắc đẹp là rất lớn, tỷ lệ sinh viên tốt nghiệp các chương trình đào tạo có việc làm rất cao.</p>
+
+                    </div>
+                    <div class="conclusion" id="conclusion">
+                        <h1>Kết luận</h1>
+                        <p>Ngành chăm sóc sắc đẹp là một lĩnh vực rộng lớn và hấp dẫn, mang lại nhiều cơ hội nghề nghiệp và phát triển bản thân. Nếu bạn yêu thích làm đẹp và muốn tạo dựng sự nghiệp trong ngành này, hãy bắt đầu từ việc học hỏi và rèn luyện các kỹ năng cần thiết để trở thành một chuyên gia chăm sóc sắc đẹp chuyên nghiệp.</p>
+                    </div>
+                </div>
+            </div>
+        
+
+
+
+
+
+            
+        <div class="beauty-content">
+            <div class="text-section">
+                <h1>Tố Chất Phù Hợp <br> Với Ngành Chăm Sóc Sắc Đẹp?</h1>
+                <ul>
+                    <li>Có óc thẩm mỹ, yêu thích cái đẹp</li>
+                    <li>Khéo léo, tỉ mỉ, tận tâm, chu đáo, thân thiện, cởi mở</li>
+                    <li>Thao tác thuần thục, gọn gàng, chuyên nghiệp</li>
+                    <li>Thấu hiểu tâm lý khách hàng</li>
+                    <li>Ham học hỏi, cập nhật xu thế</li>
+                </ul>
+            </div>
+            <div class="image-gallery">
+                <img src="image/24.jpg" alt="Beauty Image 1">
+                <img src="image/25.jpg" alt="Beauty Image 2">
+                <img src="image/26.jpg" alt="Beauty Image 3">
+                <img src="image/4.jpg" alt="Beauty Image 4">
+            </div>
+        </div>
+
+
+
+        <body>
+            <div class="container-footer">
+                <h1 class="title">NGHỀ NGHIỆP PHÙ HỢP CHO NGÀNH CHĂM SÓC ĐẸP</h1>
+                <div class="grid">
+                    <div class="grid-item" style="background-image: url('image/1.jpg');">
+                        <p>Chuyên gia trang điểm (Makeup Artist): Làm việc trong các studio, tiệm trang điểm, hoặc làm việc tự do. Trang điểm cho các sự kiện đặc biệt như cưới hỏi, tiệc tùng, chụp hình, quay phim.</p>
+                    </div>
+                    <div class="grid-item" style="background-image: url('image/2.jpg');">
+                        <p>Chuyên viên chăm sóc da (Skincare Specialist): Làm việc tại các spa, thẩm mỹ viện hoặc phòng khám da liễu. Cung cấp các dịch vụ chăm sóc da như làm sạch da, điều trị mụn, chống lão hóa.</p>
+                    </div>
+                    <div class="grid-item" style="background-image: url('image/3.jpg');">
+                        <p>Chuyên viên làm tóc (Hair Stylist): Làm việc tại các salon tóc, hoặc làm việc tự do. Cắt, nhuộm, uốn, duỗi và tạo kiểu tóc theo yêu cầu của khách hàng.</p>
+                    </div>
+                    <div class="grid-item" style="background-image: url('image/4.jpg');">
+                        <p>Chuyên viên làm móng (Nail Technician): Làm việc tại các tiệm làm móng, spa hoặc làm việc tự do. Cung cấp các dịch vụ chăm sóc móng như cắt tỉa, sơn, vẽ móng nghệ thuật.</p>
+                    </div>
+                    <div class="grid-item" style="background-image: url('image/5.jpg');">
+                        <p>Chuyên viên massage trị liệu (Massage Therapist): Làm việc tại các spa, trung tâm y tế, hoặc làm việc tự do. Thực hiện các liệu pháp massage để giảm căng thẳng, đau nhức và cải thiện sức khỏe.</p>
+                    </div>
+                    <div class="grid-item" style="background-image: url('image/6.jpg');">
+                        <p>Chuyên gia tư vấn làm đẹp (Beauty Consultant): Làm việc cho các thương hiệu mỹ phẩm, tại các cửa hàng hoặc làm việc tự do. Tư vấn và hướng dẫn khách hàng về cách sử dụng sản phẩm làm đẹp phù hợp.</p>
+                    </div>
+                    <div class="grid-item" style="background-image: url('image/7.jpg');">
+                        <p>Giảng viên đào tạo thẩm mỹ (Beauty Educator): Làm việc tại các trường đào tạo thẩm mỹ hoặc trung tâm dạy nghề. Giảng dạy và huấn luyện các kỹ năng chăm sóc sắc đẹp cho học viên.</p>
+                    </div>
+                    <div class="grid-item" style="background-image: url('image/8.jpg');">
+                        <p>Quản lý spa/thẩm mỹ viện (Spa/Salon Manager): Quản lý hoạt động hàng ngày của các spa, salon tóc, hoặc thẩm mỹ viện. Điều hành và quản lý nhân viên, tiếp thị dịch vụ và đảm bảo chất lượng dịch vụ.</p>
+                    </div>
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const containerFooter = document.querySelector('.container-footer');
+                    const observer = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                containerFooter.classList.add('visible');
+                            }
+                        });
+                    });
+                    observer.observe(containerFooter);
+                });
+            </script>
+
+
+            
+          
+
+
+
+
+
+<body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="Image/logovlsc.png" alt="Logo" class="logo">
+                <p>
+                    Cao đẳng Văn Lang là một cơ sở giáo dục tại Việt Nam, cung cấp các chương trình đào tạo nghề nghiệp thực tiễn trong nhiều lĩnh vực như chăm sóc sắc đẹp, kỹ thuật, công nghệ thông tin, và kinh doanh. Trường chú trọng vào việc liên kết với doanh nghiệp để tạo cơ hội thực hành và việc làm cho sinh viên ngay trong quá trình học.</p>
+            </div>
+            <div class="footer-column">
+                <h3>CÔNG TY</h3>
+                <ul>
+                    <li><a href="#">Trang làm việc của trường</a></li>
+                    <li><a href="#">Về chúng tôi</a></li>
+                    <li><a href="#">Cơ hội nghề nghiệp</a></li>
+                    <li>Địa chỉ: 80/68 Dương Quảng Hàm, P5, Gò Vấp, Tp. HCM</li>
+                    <li>Email: <a href=" tuyensinh@vanlangsaigon.edu.vn ">tuyensinh@vanlangsaigon.edu.vn</a></li>
+                    <li>Hotline:  028 7303 9999</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>KẾT NỐI CỦA TRƯỜNG</h3>
+                <div class="social-media">
+                    <a href="#"><img src="Image/16.png" alt="Facebook"></a>
+                    <a href="#"><img src="Image/17.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="Image/18.png" alt="Instagram"></a>
+                    <a href="#"><img src="Image/19.png" alt="Email"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
